@@ -12,7 +12,7 @@ public class Prg_007 {
         System.out.print("Num 3: ");
         c = sc.nextInt();
 
-        int max = (a > b) ? (a > c) ? a : c : (b > c) ? b : c;
+        int max = (a > b) ? Math.max(a, c) : Math.max(b, c);
 //        int max = (a > b) ? Math.max(a, c) : Math.max(b, c);
         System.out.println("The maximum among the 3 is "+max);
     }

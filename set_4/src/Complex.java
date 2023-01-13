@@ -1,27 +1,25 @@
-import java.util.Scanner;
-
 public class Complex {
-    private Complex num1;
-    private Complex num2;
+    private final int real;
+    private final int imaginary;
 
-    static Scanner sc = new Scanner(System.in);
-
-    void read(){
-        System.out.println("Enter two Complex Numbers");
-        System.out.println("Enter the First Number's Real Part");
-//        num1.
+    public Complex(int real, int imaginary) {
+        this.real = real;
+        this.imaginary = imaginary;
     }
 
     void display(){
-//        System.out.printf("%d + %di",this.real,this.imaginary);
+        System.out.println("The Complex Number is "+real+" + "+imaginary+"i");
     }
 
-//    void add(Complex ){
-//
-//    }
+    void add(Complex c){
+        int a = this.real + c.real;
+        int b = this.imaginary + c.imaginary;
+        System.out.println("The sum is "+a+" + "+b+"i");
+    }
 
-    public static void main(String[] args) {
-        Complex c1 = new Complex();
-        c1.read();
+    void multiply(Complex c){
+        int a = (this.real*c.real) - (this.imaginary * c.imaginary);
+        int b = (this.real*c.real) + (this.imaginary * c.imaginary);
+        System.out.println("The Product is "+a+" + "+b+"i");
     }
 }

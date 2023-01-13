@@ -18,7 +18,7 @@ public class Pro_019 {
         }
     }
 
-    public static void main(String[] args) {
+    boolean menu(){
         System.out.println("1. Find max of 2 Numbers");
         System.out.println("2. Find max of 3 Numbers");
         System.out.println("3. Exit");
@@ -46,8 +46,17 @@ public class Pro_019 {
                 c = sc.nextInt();
                 System.out.println("The max is " + obj.max(a, b, c));
             }
-            case 3 -> System.out.println("Exiting");
+            case 3 -> {
+                System.out.println("Exiting");
+                System.exit(0);
+            }
             default -> System.out.println("Enter a Valid Choice!");
         }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        Pro_019 obj = new Pro_019();
+        while(obj.menu()){}
     }
 }

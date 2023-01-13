@@ -8,7 +8,7 @@ public class Pro_013 {
         int n,sum = 0,i = 1;
         System.out.print("Enter the value of n: ");
         n = sc.nextInt();
-        while(i <= n){
+        while(i <= n+1){
             sum += i;
             System.out.print(sum+"\t");
             i++;
