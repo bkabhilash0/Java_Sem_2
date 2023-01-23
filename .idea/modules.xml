@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lab/Lab.iml" filepath="$PROJECT_DIR$/Lab/Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Misc/Misc.iml" filepath="$PROJECT_DIR$/Misc/Misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Set 1.iml" filepath="$PROJECT_DIR$/.idea/Set 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/set_1/set_1.iml" filepath="$PROJECT_DIR$/set_1/set_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/set_2/set_2.iml" filepath="$PROJECT_DIR$/set_2/set_2.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/set_5/set_5.iml" filepath="$PROJECT_DIR$/set_5/set_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/set_6/set_6.iml" filepath="$PROJECT_DIR$/set_6/set_6.iml" />
       <module fileurl="file://$PROJECT_DIR$/set_7/set_7.iml" filepath="$PROJECT_DIR$/set_7/set_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/set_8/set_8.iml" filepath="$PROJECT_DIR$/set_8/set_8.iml" />
     </modules>
   </component>
 </project>
